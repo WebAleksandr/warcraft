@@ -1,0 +1,108 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+img {
+   display: block;
+   width: 100%;
+}
+
+body {
+   font-family: 'IBM Plex Sans', sans-serif;
+   min-width: 100%;
+   background: url("../img/727855.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.quote__container {
+   max-width: 100rem;
+   border-radius: 1.5rem;
+   background: rgba(24, 24, 24, 0.76);
+   padding: 2rem 1.5rem;
+   margin: 1.5rem;
+}
+
+.quote__title {
+   text-align: center;
+   font-size: 4rem;
+   text-transform: uppercase;
+   color: #fff;
+   font-family: inherit;
+   font-weight: 500;
+   margin-bottom: 1.5rem;
+}
+
+.quote__text {
+   margin-bottom: 1.5rem;
+}
+
+.text {
+   font-size: 3.5rem;
+   font-weight: 500;
+   color: #fff;
+
+}
+
+.long-quote {
+   font-size: 3rem;
+}
+
+.small-size {
+   font-size: 1.9rem;
+}
+
+.quote__author {
+   margin-bottom: 2rem;
+}
+
+.author {
+   display: block;
+   text-align: center;
+   font-weight: 500;
+   font-size: 2.5rem;
+   color: rgb(252, 166, 166);
+}
+
+.quote__menu {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.quote__gif {
+   height: 5rem;
+   cursor: pointer;
+   transition: .3s linear;
+}
+
+.quote__gif.paused {
+   opacity: 0.4;
+}
+
+.new__quote {
+   border-radius: 1rem;
+   border: none;
+   font-size: 2rem;
+   padding: 1.5rem 2rem;
+   background-color: #fff;
+   font-family: inherit;
+   cursor: pointer;
+   transition: .3s linear;
+}
+
+.new__quote:hover {
+   background-color: rgb(163, 32, 32);
+   color: #fff;
+}
